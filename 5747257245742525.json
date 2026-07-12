@@ -189,7 +189,9 @@
   "RenderItem": "net/minecraft/client/Pu",
   "ItemModelMesher": "net/minecraft/client/L0",
   "TextureAtlasSprite": "net/minecraft/client/T7",
-  "TextureMap": "net/minecraft/client/M"
+  "TextureMap": "net/minecraft/client/M",
+  "PlayerCapabilities": "net/minecraft/QT",
+  "BoolWrapper": "cn"
  },
  "fields": {
   "Entity.posX": { "owner": "net/minecraft/MP", "name": "E", "desc": "D" },
@@ -234,6 +236,7 @@
   "EntityPlayer.inventory": { "owner": "net/minecraft/Zq", "name": "ht", "desc": "Lnet/minecraft/eU;" },
   "EntityPlayer.gameProfile": { "owner": "net/minecraft/Zq", "name": "h6", "desc": "Lcom/mojang/authlib/GameProfile;" },
   "EntityPlayer.bedLocation": { "owner": "net/minecraft/Zq", "name": "hv", "desc": "Lnet/minecraft/BlockPos;" },
+  "EntityPlayer.capabilities": { "owner": "net/minecraft/Zq", "name": "hU", "desc": "Lnet/minecraft/QT;" },
   "EntityPlayerSP.motionYWrapperField": { "owner": "net/minecraft/client/Qw", "name": "Ix", "desc": "Lcb;" },
   "EntityPlayerSP.movementInput": { "owner": "net/minecraft/client/Qw", "name": "Iv", "desc": "Lnet/minecraft/Lo;" },
   "EntityPlayerSP.mc": { "owner": "net/minecraft/client/Qw", "name": "IH", "desc": "Lnet/minecraft/client/Xv;" },
@@ -301,7 +304,10 @@
   "RenderManager.renderPosX": { "owner": "net/minecraft/client/DZ", "name": "T", "desc": "D" },
   "RenderManager.renderPosY": { "owner": "net/minecraft/client/DZ", "name": "F", "desc": "D" },
   "RenderManager.renderPosZ": { "owner": "net/minecraft/client/DZ", "name": "r", "desc": "D" },
-  "TextureMap.locationBlocksTexture": { "owner": "net/minecraft/client/M", "name": "S", "desc": "Lnet/minecraft/gb;" }
+  "TextureMap.locationBlocksTexture": { "owner": "net/minecraft/client/M", "name": "S", "desc": "Lnet/minecraft/gb;" },
+  "PlayerCapabilities.isFlying": { "owner": "net/minecraft/QT", "name": "X", "desc": "Lcn;" },
+  "PlayerCapabilities.allowFlying": { "owner": "net/minecraft/QT", "name": "w", "desc": "Lcn;" },
+  "PlayerCapabilities.flySpeed": { "owner": "net/minecraft/QT", "name": "v", "desc": "F" }
  },
  "methods": {
   "Entity.getMotionY": { "owner": "net/minecraft/MP", "name": "H", "desc": "()D" },
@@ -373,6 +379,8 @@
   "TextureAtlasSprite.getMinU": { "owner": "net/minecraft/client/T7", "name": "C", "desc": "()F" },
   "TextureAtlasSprite.getMaxU": { "owner": "net/minecraft/client/T7", "name": "c", "desc": "()F" },
   "TextureAtlasSprite.getMinV": { "owner": "net/minecraft/client/T7", "name": "f", "desc": "()F" },
-  "TextureAtlasSprite.getMaxV": { "owner": "net/minecraft/client/T7", "name": "L", "desc": "()F" }
+  "TextureAtlasSprite.getMaxV": { "owner": "net/minecraft/client/T7", "name": "L", "desc": "()F" },
+  "BoolWrapper.set": { "owner": "cn", "name": "B", "desc": "(Ljava/lang/Boolean;)V" },
+  "BoolWrapper.get": { "owner": "cn", "name": "C", "desc": "()Ljava/lang/Boolean;" }
  }
 }
