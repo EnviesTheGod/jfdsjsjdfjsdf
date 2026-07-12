@@ -191,7 +191,8 @@
   "TextureAtlasSprite": "net/minecraft/client/T7",
   "TextureMap": "net/minecraft/client/M",
   "PlayerCapabilities": "net/minecraft/QT",
-  "BoolWrapper": "cn"
+  "BoolWrapper": "cn",
+  "RendererLivingEntity": "net/minecraft/client/Q_"
  },
  "fields": {
   "Entity.posX": { "owner": "net/minecraft/MP", "name": "E", "desc": "D" },
@@ -382,6 +383,8 @@
   "TextureAtlasSprite.getMinV": { "owner": "net/minecraft/client/T7", "name": "f", "desc": "()F" },
   "TextureAtlasSprite.getMaxV": { "owner": "net/minecraft/client/T7", "name": "L", "desc": "()F" },
   "BoolWrapper.set": { "owner": "cn", "name": "B", "desc": "(Ljava/lang/Boolean;)V" },
-  "BoolWrapper.get": { "owner": "cn", "name": "C", "desc": "()Ljava/lang/Boolean;" }
+  "BoolWrapper.get": { "owner": "cn", "name": "C", "desc": "()Ljava/lang/Boolean;" },
+  "RendererLivingEntity.renderModel": { "owner": "net/minecraft/client/Q_", "name": "u", "desc": "(Lnet/minecraft/M2;FFFFFF)V" },
+  "RendererLivingEntity.doRender": { "owner": "net/minecraft/client/Q_", "name": "d", "desc": "(Lnet/minecraft/M2;DDDFF)V" }
  }
 }
