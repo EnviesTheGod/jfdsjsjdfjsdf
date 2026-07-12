@@ -221,6 +221,7 @@
   "Entity.lastTickPosZ": { "owner": "net/minecraft/MP", "name": "w", "desc": "D" },
   "Entity.entityId": { "owner": "net/minecraft/MP", "name": "Zg", "desc": "I" },
   "Entity.onGround": { "owner": "net/minecraft/MP", "name": "u", "desc": "Z" },
+  "Entity.isInWeb": { "owner": "net/minecraft/MP", "name": "g", "desc": "Lcn;" },
   "EntityLivingBase.hurtTime": { "owner": "net/minecraft/M2", "name": "GA", "desc": "I" },
   "EntityLivingBase.deathTime": { "owner": "net/minecraft/M2", "name": "GS", "desc": "I" },
   "EntityLivingBase.moveStrafing": { "owner": "net/minecraft/M2", "name": "Gx", "desc": "F" },
