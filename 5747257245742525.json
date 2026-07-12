@@ -188,7 +188,8 @@
   "MovingObjectPosition": "net/minecraft/Tw",
   "RenderItem": "net/minecraft/client/Pu",
   "ItemModelMesher": "net/minecraft/client/L0",
-  "TextureAtlasSprite": "net/minecraft/client/T7"
+  "TextureAtlasSprite": "net/minecraft/client/T7",
+  "TextureMap": "net/minecraft/client/M"
  },
  "fields": {
   "Entity.posX": { "owner": "net/minecraft/MP", "name": "E", "desc": "D" },
@@ -282,7 +283,7 @@
   "Minecraft.currentScreen": { "owner": "net/minecraft/client/Xv", "name": "bb", "desc": "Lnet/minecraft/client/cc;" },
   "Minecraft.objectMouseOver": { "owner": "net/minecraft/client/Xv", "name": "kn", "desc": "Lnet/minecraft/Tw;" },
   "Minecraft.renderEngine": { "owner": "net/minecraft/client/Xv", "name": "bd", "desc": "Lnet/minecraft/client/J4;" },
-  "Minecraft.instance": { "owner": "net/minecraft/client/Xv", "name": "s", "desc": "Lnet/minecraft/client/Xv;" },
+  "Minecraft.instance": { "owner": "net/minecraft/client/Xv", "name": "b9", "desc": "Lnet/minecraft/client/Xv;" },
   "Minecraft.renderItem": { "owner": "net/minecraft/client/Xv", "name": "kQ", "desc": "Lnet/minecraft/client/Pu;" },
   "Timer.renderPartialTicks": { "owner": "net/minecraft/client/Pi", "name": "e", "desc": "F" },
   "Timer.elapsedTicks": { "owner": "net/minecraft/client/Pi", "name": "N", "desc": "I" },
@@ -298,7 +299,8 @@
   "ActiveRenderInfo.OBJECTCOORDS": { "owner": "net/minecraft/client/Xy", "name": "K", "desc": "Ljava/nio/FloatBuffer;" },
   "RenderManager.renderPosX": { "owner": "net/minecraft/client/DZ", "name": "T", "desc": "D" },
   "RenderManager.renderPosY": { "owner": "net/minecraft/client/DZ", "name": "F", "desc": "D" },
-  "RenderManager.renderPosZ": { "owner": "net/minecraft/client/DZ", "name": "r", "desc": "D" }
+  "RenderManager.renderPosZ": { "owner": "net/minecraft/client/DZ", "name": "r", "desc": "D" },
+  "TextureMap.locationBlocksTexture": { "owner": "net/minecraft/client/M", "name": "S", "desc": "Lnet/minecraft/gb;" }
  },
  "methods": {
   "Entity.getMotionY": { "owner": "net/minecraft/MP", "name": "H", "desc": "()D" },
